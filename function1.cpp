@@ -1,6 +1,6 @@
 #include <iostream>
+#include "function1.h"
 using namespace std;
-}
 int knapSack(int W, int w[], int v[], int n) {
    int i, wt;
    int K[n + 1][W + 1];
